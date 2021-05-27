@@ -1,5 +1,5 @@
 .header {
-    background-color: blueviolet;
+    background-color:blueviolet;
     margin: -34px -12px;
     box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.5);
 }
@@ -33,4 +33,37 @@ footer p{
 .note p,h1{
     font-family: 'Caveat',cursive;
     letter-spacing: 2px;
+}
+
+.inpdiv {
+    padding: 20px;
+    margin-top: 100px;
+    position: relative;
+    left:30%;
+    max-width: 40%;
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.inp {
+    font-family: 'Source Code Pro', monospace;
+    outline: none;
+    border:0;
+    display: block;
+    width: 532px;
+    height: 20px;
+}
+#inp2 {
+    height: 40px;
+}
+
+.btn {
+    position: relative;
+    top: 45px;
+    left:400px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(173, 91, 250);
+    border-radius: 50%;
+    border: 1px solid rgb(84, 4, 95);
 }
